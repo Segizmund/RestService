@@ -1,0 +1,131 @@
+@media screen and (max-width: 900px){
+	.Email__text{
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 840px){
+	.Headings{
+		font-size: 15px;
+	}
+	.Info__user{
+		font-size: 14px;
+	}
+	.Headings div{
+		width: 17.8%;
+	}
+	.Plus:before,.Minus:before{
+		font-size: 45px;
+	}
+	.Username__secondary,.Registered__secondary,.Email__secondary,
+	.Address__secondary,.City__secondary,.Postcode__secondary,
+	.Birthday__secondary,.Phone__secondary, .Email__text{
+		font-size: 12px;
+		word-wrap: break-word;
+	}
+	.FirstSecondary .First__text{
+		font-size: 20px;
+	}
+	.Container__photo{
+		text-align: center;
+	}
+	.Image__secondary img{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 740px){
+	.Info__user{
+		font-size: 12px;
+	}
+	.Surname, .First{
+		width: 12%;
+	}
+	.Headings div.Headings__first, .Headings div.Headings__last{
+		width: 14%;
+	}
+}
+@media screen and (max-width: 640px){
+	.Headings{
+		margin-left: 70px;
+	}
+	.Headings div{
+		display: none;
+		margin: 0 auto;
+	}
+	.Headings div.Headings__first{
+		display: block;
+	}
+	.Surname, .Username, .Phone, .City{
+		display: none;
+	}
+	.Info__user{
+		justify-content: space-between;
+	}
+	.First{
+		font-size: 16px;
+	}
+	.Search__menu{
+		width: 98%;
+		margin-bottom: 30px;
+	}
+	#Search{
+		width: 100%;
+	}
+	.Buttons{
+		display: block;
+	}
+	.Container__info{
+		padding: 30px 0px 30px 5px;
+	}
+	.FirstSecondary{
+		padding-left: 5px;
+	}
+	.Container__info{
+		display: block;
+		width: 98%;
+		text-align: center;
+	}
+	.Names, .Address, .Birth{
+		width: 98%;
+	}
+	.Container__photo{
+		width: 20%;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-right: 43%;
+		margin-right: 47%;
+	}
+	.Image__secondary img{
+		width: 150%;
+	}
+}
+@media screen and (max-width: 600px){
+	.Image__secondary img{
+		width: 150%;
+	}
+}
+@media screen and (max-width: 415px){
+	.Info__user{
+		justify-content: space-between;
+	}
+	.First{
+		font-size: 16px;
+		justify-content: flex-start;
+		width: 50%;
+	}
+	.Image__secondary img{
+		width: 150%;
+	}
+	.Headings div{
+		margin: 0;
+		margin-left: 20.5%;
+	}
+}
+@media screen and (max-width: 350px){
+	.Show__chart{
+		font-size: 12px;
+		padding: 5px;
+	}
+	.Headings div{
+		margin-left: 19%;
+	}
+}
